@@ -1,6 +1,6 @@
 import React from 'react';
-import Addverstainment from './Addverstainment';
 import Categories from './Categories';
+import Advertise from './Advertise'
 import Feature from './Feature';
 import Hero from './Hero';
 import Sponsors from './Sponsors';
@@ -10,7 +10,7 @@ const Home = () => {
         <>
             <Hero></Hero>
             <Categories></Categories>
-            <Addverstainment></Addverstainment>
+            <Advertise />
             <Feature></Feature>
             <Sponsors></Sponsors>
         </>
