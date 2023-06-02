@@ -20,13 +20,13 @@ const Categories = () => {
 
     return (
         <div className='my-10'>
-            <h1 className='text-5xl font-bold text-center py-8'>See Our Some Categories</h1>
-            <div className='md:flex justify-center gap-8 mx-10'>
+            <h1 className='text-4xl font-bold text-center py-8'>See Our Some Categories</h1>
+            <div className='flex flex-col md:flex-row justify-center gap-8 mx-10'>
                 {
                     categories.map(category => {
                         const { name, img, _id, category_id } = category
                         return (
-                            <Link to={`/categories/${category_id}`} key={_id} className="group relative flex w-1/3 h-96 items-end bg-black">
+                            <Link to={`/categories/${category_id}`} key={_id} className="group relative flex md:w-1/3 h-96 items-end bg-black">
                                 <img
                                     alt="image"
                                     src={img}
