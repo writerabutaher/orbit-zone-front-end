@@ -20,8 +20,8 @@ const Hero = () => {
                                         Buy Now
                                     </span>
                                 </Link>
-                                <Link type="button" title="Start Selling" className="group w-full py-3 px-6 text-center transition active:bg-yellow-200 focus:bg-yellow-100 sm:w-max">
-                                    <span className="block text-gray-700  font-semibold group-focus:text-yellow-700">
+                                <Link type="button" title="Start Selling" className="group w-full py-3 px-6 text-center transition active:bg-orange-200 focus:bg-orange-100 sm:w-max">
+                                    <span className="block text-gray-700  font-semibold group-focus:text-orange-700">
                                         Sell Now
                                     </span>
                                 </Link>
@@ -42,9 +42,9 @@ const Hero = () => {
                             </div>
                         </Link>
                         <div>
-                            <Link className="hover:text-yellow-700 ">Facebook /</Link>
-                            <Link className="hover:text-yellow-700 ">YouTube / </Link>
-                            <Link className="hover:text-yellow-700 ">Twitter</Link>
+                            <Link className="hover:text-orange-700 ">Facebook /</Link>
+                            <Link className="hover:text-orange-700 ">YouTube / </Link>
+                            <Link className="hover:text-orange-700 ">Twitter</Link>
                         </div>
                     </div>
                 </div>
