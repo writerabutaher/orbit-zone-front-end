@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div className='py-12'>
-            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 dark:text-white">
+            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 ">
                 <article className="space-y-8">
                     <div className="space-y-6 border-b-2 border-dashed py-4">
                         <h1 className="text-4xl font-bold md:tracking-tight md:text-5xl">What are the different ways to manage a state in a React application?</h1>
@@ -65,7 +65,7 @@ const Blog = () => {
                 </div>
             </div>
 
-            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 dark:text-white">
+            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 ">
                 <article className="space-y-8">
                     <div className="space-y-6 border-b-2 border-dashed py-4">
                         <h1 className="text-4xl font-bold md:tracking-tight md:text-5xl">How does prototypical inheritance work?</h1>
@@ -90,7 +90,7 @@ const Blog = () => {
                 </div>
             </div>
 
-            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 dark:text-white">
+            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 ">
                 <article className="space-y-8">
                     <div className="space-y-6 border-b-2 border-dashed py-4">
                         <h1 className="text-4xl font-bold md:tracking-tight md:text-5xl">What is Unit Testing?</h1>
@@ -111,7 +111,7 @@ const Blog = () => {
                 </div>
             </div>
 
-            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 dark:text-white">
+            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 ">
                 <article className="space-y-8">
                     <div className="space-y-6 border-b-2 border-dashed py-4">
                         <h1 className="text-4xl font-bold md:tracking-tight md:text-5xl">How does prototypical inheritance work?</h1>
@@ -135,7 +135,7 @@ const Blog = () => {
                 </div>
             </div>
 
-            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 dark:text-white">
+            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 ">
                 <article className="space-y-8">
                     <div className="space-y-6 border-b-2 border-dashed py-4">
                         <h1 className="text-4xl font-bold md:tracking-tight md:text-5xl">Why should we write Unit Testing?</h1>
@@ -161,7 +161,7 @@ const Blog = () => {
                 </div>
             </div>
 
-            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 dark:text-white">
+            <div className="max-w-2xl px-6 py-16 mx-auto space-y-12 text-gray-700 ">
                 <article className="space-y-8">
                     <div className="space-y-6 border-b-2 border-dashed py-4">
                         <h1 className="text-4xl font-bold md:tracking-tight md:text-5xl">React VS Angular VS Vue</h1>

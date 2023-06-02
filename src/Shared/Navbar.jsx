@@ -25,9 +25,9 @@ const Navbar = () => {
                                 <div className="flex items-center md:hidden max-h-10">
                                     <label role="button" htmlFor="toggle_nav" aria-label="" id="hamburger" className="relative z-40 px-2 py-3 sm:-mr-6">
                                         <div id="line"
-                                            className="m-auto h-0.5 w-6 rounded bg-sky-900 dark:bg-gray-300 transition duration-300"></div>
+                                            className="m-auto h-0.5 w-6 rounded bg-sky-900  transition duration-300"></div>
                                         <div id="line2"
-                                            className="m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 dark:bg-gray-300 transition duration-300">
+                                            className="m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 transition duration-300">
                                         </div>
                                     </label>
                                 </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
                             <label role="button" htmlFor="toggle_nav" className="fixed w-full z-30 h-full top-0 left-0 bg-gray-700 bg-opacity-40 hidden peer-checked:block md:peer-checked:hidden"></label>
 
                             <div className="flex z-50 flex-col md:flex-row justify-between 
-                    items-center gap-y-4 p-6 bg-white dark:bg-gray-800 md:w-8/12 
+                    items-center gap-y-4 p-6 bg-white md:w-8/12 
                     md:gap-y-4 md:p-0 
                     md:bg-transparent lg:w-7/12 fixed top-0 -left-full transition-all duration-500 peer-checked:left-0 max-w-sm h-full 
                     md:left-0 md:h-auto w-4/5 md:max-w-none md:relative lg:first-letter:top-0">
@@ -45,40 +45,40 @@ const Navbar = () => {
                                         <li>
                                             <NavLink to='/home' className="block md:px-3 group">
                                                 <div className="relative text-gray-600
-                                                    before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yellow-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
-                                                    <span className="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300">Home</span>
+                                                    before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left before:mx-auto before:mt-auto before:rounded-full before:bg-orange-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
+                                                    <span className="transition group-hover:text-orange-700">Home</span>
                                                 </div>
                                             </NavLink>
                                         </li>
                                         <li>
                                             <NavLink to='/vehicles' className="block md:px-3 group">
                                                 <div className="relative text-gray-600
-                                                    before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yellow-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
-                                                    <span className="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300">Vehicles</span>
+                                                    before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left before:mx-auto before:mt-auto before:rounded-full before:bg-orange-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
+                                                    <span className="transition group-hover:text-orange-700">Vehicles</span>
                                                 </div>
                                             </NavLink>
                                         </li>
                                         <li>
                                             <NavLink to='/dashboard' className="block md:px-3 group">
                                                 <div className="relative text-gray-600
-                                                    before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yellow-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
-                                                    <span className="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300">Dashboard</span>
+                                                    before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left before:mx-auto before:mt-auto before:rounded-full before:bg-orange-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
+                                                    <span className="transition group-hover:text-orange-700">Dashboard</span>
                                                 </div>
                                             </NavLink>
                                         </li>
                                         <li>
                                             <NavLink to='/blog' className="block md:px-3 group">
                                                 <div className="relative text-gray-600
-                                                    before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yellow-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
-                                                    <span className="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300">Blog</span>
+                                                    before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left before:mx-auto before:mt-auto before:rounded-full before:bg-orange-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
+                                                    <span className="transition group-hover:text-orange-700">Blog</span>
                                                 </div>
                                             </NavLink>
                                         </li>
                                         <li>
                                             <NavLink to='/about' className="block md:px-3 group">
                                                 <div className="relative text-gray-600
-                                                    before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yellow-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
-                                                    <span className="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300">About</span>
+                                                    before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left before:mx-auto before:mt-auto before:rounded-full before:bg-orange-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
+                                                    <span className="transition group-hover:text-orange-700">About</span>
                                                 </div>
                                             </NavLink>
                                         </li>
@@ -89,19 +89,19 @@ const Navbar = () => {
                                     {
                                         !user ?
                                             <>
-                                                <NavLink to='/login' type="button" title="Login" className="group w-full py-3 px-6 text-center transition dark:active:bg-yellow-800 dark:focus:bg-yellow-900 active:bg-yellow-200 focus:bg-yellow-100 sm:w-max">
-                                                    <span className="block text-gray-700 dark:text-gray-300 font-semibold group-focus:text-yellow-700 dark:group-focus:text-yellow-100">
+                                                <NavLink to='/login' type="button" title="Login" className="group w-full py-3 px-6 text-center transition active:bg-orange-200 focus:bg-orange-100 sm:w-max">
+                                                    <span className="block text-gray-700 font-semibold group-focus:text-orange-700">
                                                         Login
                                                     </span>
                                                 </NavLink>
-                                                <NavLink to='/register' type="button" title="Register" className="w-full py-3 px-6 text-center transition dark:bg-gray-700 bg-gray-900 hover:bg-gray-800 active:bg-gray-700 focus:bg-gray-800 md:w-max">
+                                                <NavLink to='/register' type="button" title="Register" className="w-full py-3 px-6 text-center transition bg-gray-900 hover:bg-gray-800 active:bg-gray-700 focus:bg-gray-800 md:w-max">
                                                     <span className="block text-white font-semibold">
                                                         Register
                                                     </span>
                                                 </NavLink>
                                             </>
                                             :
-                                            <button onClick={handleLogOut} type="button" title="Log Out" className="w-full py-3 px-6 text-center transition dark:bg-gray-700 bg-gray-900 hover:bg-gray-800 active:bg-gray-700 focus:bg-gray-800 md:w-max">
+                                            <button onClick={handleLogOut} type="button" title="Log Out" className="w-full py-3 px-6 text-center transition bg-gray-900 hover:bg-gray-800 active:bg-gray-700 focus:bg-gray-800 md:w-max">
                                                 <span className="block text-white font-semibold">
                                                     Log Out
                                                 </span>

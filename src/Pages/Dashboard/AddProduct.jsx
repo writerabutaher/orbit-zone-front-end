@@ -72,7 +72,7 @@ const AddProduct = () => {
                                 name="name"
                                 id="name"
                                 placeholder="Product Name"
-                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-300"
+                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300   "
                             />
                             {errors.name && (
                                 <p className="text-red-600">{errors.name?.message}</p>
@@ -91,7 +91,7 @@ const AddProduct = () => {
                                 id="image"
                                 accept="image/*"
                                 placeholder="Enter Your img"
-                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-300"
+                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300   "
                             />
                         </div>
                         <div>
@@ -106,7 +106,7 @@ const AddProduct = () => {
                                 name="originalprice"
                                 id="originalprice"
                                 placeholder="Original Price"
-                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-300"
+                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300   "
                             />
                             {errors.email && (
                                 <p className="text-red-600">{errors.originalprice?.message}</p>
@@ -124,7 +124,7 @@ const AddProduct = () => {
                                 name="resaleprice"
                                 id="resaleprice"
                                 placeholder="Resale Price"
-                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-300"
+                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300   "
                             />
                             {errors.email && (
                                 <p className="text-red-600">{errors.resaleprice?.message}</p>
@@ -140,7 +140,7 @@ const AddProduct = () => {
                                 name="location"
                                 id="location"
                                 placeholder="location"
-                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-300"
+                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300   "
                             />
                         </div>
                         <div>
@@ -153,7 +153,7 @@ const AddProduct = () => {
                                 name="phone"
                                 id="phone"
                                 placeholder="Phone"
-                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-300"
+                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300   "
                             />
                         </div>
                         <div>
@@ -166,7 +166,7 @@ const AddProduct = () => {
                                 name="purchase"
                                 id="purchase"
                                 placeholder="Uses Year"
-                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-300"
+                                className="w-full px-4 py-3 rounded-md border-2 border-gray-300   "
                             />
                         </div>
                         <div>
