@@ -6,11 +6,11 @@ const Feature = () => {
         <>
 
             <div className='mt-20'>
-                <div className="xl:container m-auto px-6 text-gray-500 md:px-12">
+                <div className="xl:container m-auto px-6 text-gray-600 md:px-12">
                     <div className='text-center'>
-                        <h2 className="mt-2 text-2xl font-bold text-gray-700 md:text-4xl">
+                        <h1 className="text-4xl font-bold text-center my-8 text-black">
                             What Our Serve For You
-                        </h2>
+                        </h1>
                     </div>
                     <div
                         className="mt-8 grid divide-x divide-y divide-gray-100 overflow-hidden rounded-3xl border border-gray-100 sm:grid-cols-2 lg:grid-cols-3 lg:divide-y-0 xl:grid-cols-3"
