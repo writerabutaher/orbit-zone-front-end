@@ -19,7 +19,7 @@ const Categories = () => {
     }
 
     return (
-        <div className='my-10'>
+        <div className='my-32'>
             <h1 className='text-4xl font-bold text-center py-8'>See Our Some Categories</h1>
             <div className='flex flex-col md:flex-row justify-center gap-8 mx-10'>
                 {

@@ -23,7 +23,7 @@ const Addverstainment = () => {
         <>
             {
                 adverstainment.length > 0 &&
-                <div className='my-28 px-12'>
+                <div className='my-32 px-12'>
                     <h1 className='text-4xl font-bold text-center my-8'>Our Some Advertise Vehicles</h1>
                     <Splide options={{
                         perPage: 3,

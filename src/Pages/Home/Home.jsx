@@ -4,6 +4,7 @@ import Advertise from './Advertise'
 import Feature from './Feature';
 import Hero from './Hero';
 import Sponsors from './Sponsors';
+import Pricing from './Pricing';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Hero></Hero>
             <Categories></Categories>
             <Advertise />
+            <Pricing />
             <Feature></Feature>
             <Sponsors></Sponsors>
         </>

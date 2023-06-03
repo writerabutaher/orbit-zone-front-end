@@ -5,7 +5,7 @@ const Feature = () => {
     return (
         <>
 
-            <div className='mt-20'>
+            <div className='my-32'>
                 <div className="xl:container m-auto px-6 text-gray-600 md:px-12">
                     <div className='text-center'>
                         <h1 className="text-4xl font-bold text-center my-8 text-black">
@@ -13,7 +13,7 @@ const Feature = () => {
                         </h1>
                     </div>
                     <div
-                        className="mt-8 grid divide-x divide-y divide-gray-100 overflow-hidden rounded-3xl border border-gray-100 sm:grid-cols-2 lg:grid-cols-3 lg:divide-y-0 xl:grid-cols-3"
+                        className="mt-8 grid divide-x divide-y divide-gray-100 overflow-hidden rounded-3xl border-2 border-gray-100 sm:grid-cols-2 lg:grid-cols-3 lg:divide-y-0 xl:grid-cols-3 shadow-xl"
                     >
                         <div className="group relative bg-white  transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                             <div className="relative space-y-8 py-12 p-8">
