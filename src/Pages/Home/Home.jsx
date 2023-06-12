@@ -5,15 +5,18 @@ import Feature from './Feature';
 import Hero from './Hero';
 import Sponsors from './Sponsors';
 import Pricing from './Pricing';
+import CallToAction from './CallToAction';
 
 const Home = () => {
     return (
         <>
             <Hero></Hero>
             <Categories></Categories>
+
             <Advertise />
             <Pricing />
             <Feature></Feature>
+            <CallToAction />
             <Sponsors></Sponsors>
         </>
     );
