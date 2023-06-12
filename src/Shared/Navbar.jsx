@@ -40,7 +40,8 @@ const Navbar = () => {
                     md:gap-y-4 md:p-0 
                     md:bg-transparent lg:w-7/12 fixed top-0 -left-full transition-all duration-500 peer-checked:left-0 max-w-sm h-full 
                     md:left-0 md:h-auto w-4/5 md:max-w-none md:relative lg:first-letter:top-0">
-                                <div className="block w-full h-full md:h-auto">
+
+                                <div className="block w-full h-full md:h-auto -m-20">
                                     <ul className="space-y-8 tracking-wide font-medium md:flex md:space-y-0 text-xl">
                                         <li>
                                             <NavLink to='/home' className="block md:px-3 group">
